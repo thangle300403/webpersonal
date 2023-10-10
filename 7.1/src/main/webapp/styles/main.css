@@ -1,0 +1,151 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width:600px;
+    min-height: 100vh;
+    min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.links{
+    flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+.glass{
+	display: flex;
+    border-radius: 2rem; 
+    flex-direction: column;
+    align-items: center;
+	justify-content: space-evenly;
+	text-align: center; 
+    background: white;
+    /* min-height: 80vh; */
+    width: 100%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(191, 219, 236, 0.226),
+      rgb(29, 91, 152)
+    );
+    position: relative;
+	left: 50vw;
+	top: 50vh;
+	transform: translate(-50%,-50%);
+}
+.emailcook{
+    border-radius: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+    border-width: 1px; /* Adjust the border width to your desired thickness */
+    width: 90%;
+    border-style: solid; 
+    background: whitesmoke;
+	background: linear-gradient(
+    to left bottom,
+    rgba(216, 217, 158, 0.226),
+    rgba(221, 219, 98, 0.969)
+  );
+}
+.link{
+    margin: 100rem;
+    width: 70%;
+    background: whitesmoke;
+	background: linear-gradient(
+    to right bottom,
+    rgba(233, 235, 121, 0.226),
+    rgba(47, 74, 178, 0.911)
+  );
+  border-radius: 1rem;
+  margin: 1rem ;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-evenly; */
+	text-align: center;
+	justify-content: space-evenly;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+}
+/* Change the color of unvisited links */
+.links a {
+	color: blue; /* Replace 'blue' with your desired color */
+  }
+  
+  /* Change the color of visited links */
+  .links a:visited {
+	color: pink; /* Replace 'purple' with your desired color */
+  }
+  
+  /* Change the color of links when hovered over */
+  .links a:hover {
+	color: red; /* Replace 'red' with your desired color */
+  }
+  
+  /* Change the color of links when in focus (e.g., when clicked) */
+  .links a:focus {
+	color: green; /* Replace 'green' with your desired color */
+  }
+ .links a{
+	font-size: 15px;
+ }
+h1 {     
+    font-size: 50px;
+    color: teal;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 50px;
+    color: teal;
+    margin-bottom: .5em;    
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: left;
+}
